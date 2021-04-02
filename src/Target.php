@@ -1,5 +1,5 @@
 <?php
-namespace codemonauts\cloudwatchlogs;
+namespace biller\cloudwatchlogs;
 
 use yii\log\Target as BaseTarget;
 use yii\base\InvalidConfigException;

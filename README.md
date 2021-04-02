@@ -7,7 +7,7 @@ A Yii2 log target for AWS Cloudwatch Logs.
 
 Install the package through [composer](http://getcomposer.org):
 
-    composer require codemonauts/yii2-cloudwatch-logs
+    composer require biller/yii2-cloudwatch-logs
 
 And then add this to your application configuration:
 
@@ -20,7 +20,7 @@ return [
         'log' => [
             'targets' => [
                 [
-                    'class' => \codemonauts\cloudwatchlogs\Target::class,
+                    'class' => \biller\cloudwatchlogs\Target::class,
                     'region' => 'eu-west-1',
                     'logGroup' => '/webserver/production/my-craft',
                     'logStream' => 'instance-1', // omit for automatic instance ID
